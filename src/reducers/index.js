@@ -34,7 +34,7 @@ const visibilityFilter = (state = [], action) => {
             console.log('visibility as state', action.filter);
             return action.filter;
         default:
-            return "SHOW_ALL";
+            return state || "SHOW_ALL";
     }
 }
 
