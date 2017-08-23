@@ -1,0 +1,29 @@
+.clr {
+    clear: both;
+}
+
+.app-title {
+    font-size: 22px;
+    text-align: center;
+}
+
+.App {
+    width: 40%;
+    min-width: 400px;
+}
+
+.reminder-input {
+    padding: 10px;
+}
+
+.mark-complete-icon {
+    float: right;
+}
+
+.filter-btn {
+    float: right;
+}
+
+.reminders-list {
+    margin-top: 15px;
+}
